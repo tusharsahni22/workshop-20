@@ -1,0 +1,519 @@
+ #searchIcon{
+  margin-left: 40%;
+  margin-top: 8px;
+  color:rgb(112, 109, 109);
+  font-size: 20px;
+
+  
+}
+.block_name{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-content: center;
+    text-indent: 0rem;
+}
+
+body{
+    background-color: rgb(228, 222, 222);
+}
+.search{
+    display:flex;
+    flex-direction: row;
+    border-style:hidden;
+    background-color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:30px;
+}
+#input{
+    border:none;
+    margin:8px;
+    width:50%;
+    
+}
+.LeftBody h3{
+    padding-left:10px;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(43, 41, 41);
+    font-size: 14px;;
+}
+/* #input{
+    background-color: tomato;
+    margin-right: 100px;
+} */
+.Body{
+    display: flex;
+    flex-direction: row;
+}
+#date{
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: -19px;;
+    margin-left: 5px;
+    text-align: center;
+
+    
+}
+#block_name_heading{
+    margin-left: 6px;
+    padding-left: 10px;
+}
+#date small{
+    padding-right: 30px;
+    /* margin-left: 6px; */
+    padding:3px;
+    /* color:rgb(78, 75, 75); */
+    
+}
+
+.LeftBody{
+    background-color: rgb(217, 238, 247);
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 910px;
+}
+.LeftBlockInfo{
+    
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 3px;
+    height:18%;
+}
+.LeftImage{
+    margin-left: 8px;
+    width:48px;
+    height:45px;
+    border-radius:50%;
+    margin-top: -10px;
+    
+    
+}
+#yes{
+    background-color:#1a8cff;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+} 
+.block_name{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red;; */
+    /* padding-left: 10px; */
+    text-align: center;
+    margin-top: -10px;
+}
+#image_div{
+    margin-top: 18px;;
+}
+#green1{
+    margin-left: 30%;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: green;
+    margin-top: 10%;
+    
+}
+#green2{
+    margin-left: 25%;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: green;
+    margin-top: 10%;
+    
+}
+#green3{
+    margin-left: 22%;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: green;
+    margin-top: 10%;
+    
+}
+#red{
+    margin-left: 18%;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: red;
+    margin-top: 10%;
+}
+
+
+/* @media(max-width:970px){
+    .NavBar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #logo{
+        text-align: center;
+    }
+    .Body{
+        display: flex;
+        flex-direction: column;
+    }
+    .App{
+        display: flex;
+        flex-direction: column;
+    }
+    .LeftBody{
+        width: 100%;
+    }
+} */
+
+
+
+
+
+
+
+/* right body code */
+
+#rightUpper{
+    display: flex;
+    flex-direction: row;
+    
+}
+#rightUpperRight{
+    position:absolute;
+    right:0;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    
+}
+#rightUpperRight b{
+    margin-left: 7px;
+    margin-top: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(54, 54, 54);
+    margin-right: 20px;;
+}
+
+
+.userInfo1 b{
+    margin-top: 17px;;
+    margin-left: 10px;;
+
+}
+.rightMiddle{
+display:flex;
+flex-direction: row;
+margin-bottom: 5%;
+background-color: rgb(248, 248, 248);
+margin-left: 40px;
+
+
+
+}
+.userInfo4{
+    display:flex;
+    flex-direction: row;
+}
+
+.userInfo4 b{
+    margin-top: 17px;;
+    margin-left: 10px;;
+
+}
+.userInfo1{
+    padding-left: 10px;
+    
+}
+.userInfo3{
+    padding-left: 60px;
+    
+}
+.heading{
+    margin-bottom: 3px;
+    margin-left: 40px;;
+}
+.value{
+    margin-bottom: 3px;
+    margin-left: 20px;;
+}
+.userInfoValue2{
+    margin-left: 10px;;
+}
+
+.img3{
+    margin-left: 8px;
+    width:90px;
+    height:82px;
+    border-radius:50%;
+    margin-top: 20px;
+}
+#surgeryInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;;
+    font-family: 'Roboto', sans-serif;
+}
+#notify{
+    border-radius: 50%;
+    width:70px;
+    height:60px;
+    background-color: rgb(55, 212, 55);
+    margin-top: 15px;
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    margin-left: 20px;
+    
+}
+.mainRightDiv{
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    height:910px;
+}
+#rightUpper h4{
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(53, 51, 51);
+
+}
+.RightBodyLinks{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    /* background-color: white; */
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    /* border: 2px red solid; */
+    
+    
+    
+
+}
+.RightBodyLinks a{
+    text-decoration: none;
+    margin-left: -2px;
+    padding-top: 2px;;
+    text-align: center;
+    border-radius: 3px;;
+    text-align: center;
+    color:rgb(105, 102, 102);
+    font-size: 13px;
+    font-weight: bold;
+    background-color: white;
+    width:130px;
+    height:40px;
+    
+}
+.RightBodyLinks a:focus{
+    color:rgb(0, 178, 248);
+    
+}
+.aboutSurgery{
+    display: flex;
+    flex-direction: column;
+}
+.aboutSurgeryInfo{
+
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 60px; */
+    padding-top: 40px;
+    margin-left: 40px;
+    width:35%;
+}
+.ques{
+    background-color:  rgb(217, 238, 247);
+    padding:10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14.5px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+}
+.ans{
+    background-color:rgb(250, 249, 249) ;
+    padding:10px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:rgb(87, 86, 86);
+    
+}
+#lowerDiv{
+    background-color: white;
+    height:63.3%;
+    
+}
+#previousSurgeryHed small{
+    margin-left: 10px;
+}
+#previousSurgeryHed{
+    background-color: rgb(217, 238, 247);
+    margin:10px;
+    margin-left: 20px;
+    padding:10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    height:40px;
+
+}
+#previousSurgeryVal{
+    background-color:rgb(250, 249, 249) ;
+    margin-left:20px;
+    padding:5px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#previousSurgeryVal small{
+    margin-left: 10px;
+}
+
+#previousSurgery{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+
+
+    
+}
+#hed1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+
+}
+#hed2{
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+
+}
+#hed3{
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+
+}
+#hed4{
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+
+}
+#hed5{
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+
+}
+/* #divhead5{
+    margin-left: 20px;;
+    padding-left: 3%;;
+} */
+
+#val1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+
+}
+#val2{
+    padding-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+
+}
+#val3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+    padding-left: 6.5%;}
+#val4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+    padding-left: 6%;}
+#val5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(87, 86, 86);
+    font-weight: bold;
+    padding-left: 19%;}
+#icons{
+    margin-left: 18%;
+    padding-left: 20px;
+    color:rgb(87, 87, 87);
+    font-size: 10px;;
+}
+#icon2{
+    padding-left: 8px;;
+}
+.heading small{
+    font-family: 'Roboto', sans-serif;
+}
+.value b{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;;
+}
+#firstInfo{
+    display: flex;
+    flex-direction: column;
+    padding-top: -10px;
+}
+#firstBodyInfo{
+    display: flex;
+    flex-direction: row;
+}
+#sara{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+}
+#otherInfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+#dotted{
+    padding-top: -20px;
+    /* background-color: brown; */
+}
+#addSurgeryButton{
+    background-color: rgb(80, 183, 224);
+    border: skyblue none;
+    padding:10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:white;
+    font-size: 13px;
+    
+}
+
+#add{
+    font-size: 30px;;
+}
+
+#yesNotification{
+    color:white;
+    margin-left:40px;
+    margin-top: -42px;
+}
